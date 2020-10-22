@@ -1,0 +1,28 @@
+#errorCatcher Echo
+#set $YM="%Y %m"
+#set $D="%Y-%m-%d %H:%M:%S"
+#set $M=" %b"
+#set $Time=" %H:%M"
+#set $NODAY=" N/A"
+#set $Temp="%6.1f"
+#set $Wind="%6.1f"
+#set $DR=0
+#set $Count="%6d"
+#set $NONE="  "
+#if $unit.unit_type_dict.group_rain == "mm"
+#set $Rain="%6.1f"
+#else
+#set $Rain="%6.2f"
+#end if
+Time,TemperatureC,DewpointC,PressurehPa,WindDirection,WindDirectionDegrees,WindSpeedKMH,WindSpeedGustKMH,Humidity,HourlyPrecipMM,Conditions,Clouds,dailyrainMM,SoftwareType,DateUTC,aqius
+                
+#for $_span in $day.spans(interval=300)
+#if $_span.barometer.count.raw
+#set $DR=$DR+($_span.rain.sum.raw)
+$_span.start.format($D),$_span.outTemp.max.raw,$_span.dewpoint.min.raw,$_span.barometer.max.raw,$NONE,$NONE,$_span.windSpeed.max.raw,$_span.windGust.max.raw,$_span.outHumidity.max.raw,$_span.rainRate.max.raw,$NONE,$NONE,$DR,$NONE,$NONE,$_span.aqius.max.raw
+#else
+$NONE
+#end if
+#end for
+
+    

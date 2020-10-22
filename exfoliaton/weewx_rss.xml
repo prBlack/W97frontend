@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+  <channel>
+    <title>Novozavidovsky, Tver's reg., Russia Weather Conditions</title>
+    <link>http://127.0.0.1</link>
+    <description>Current conditions, and daily, monthly, and yearly summaries</description>
+    <language>en-us</language>
+    <pubDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</pubDate>
+
+    <lastBuildDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>weewx 3.8.2</generator>
+    <ttl>5,000000 minutes</ttl>
+    
+    <item>
+      <title>Weather Conditions at 26.10.2018 21:50:00</title>
+      <link>http://127.0.0.1/index.html</link>
+      <description>
+        Outside temperature: 34,3&#176;F; 
+        Barometer: 988,3 &#1084;&#1073;&#1072;&#1088;; 
+        Wind: 3 &#1084;&#1080;&#1083;&#1100;/&#1095; from 209&#176;; 
+        Rain rate: 0,00 &#1076;&#1102;&#1081;&#1084;./&#1095;&#1072;&#1089;; 
+        Inside temperature: 78,3&#176;F
+      </description>
+      <pubDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</pubDate>
+      <geo:lat>56.571</geo:lat>
+      <geo:long>36.43</geo:long>
+      <content:encoded><![CDATA[
+      <p>
+      Time:                26.10.2018 21:50:00<br/>
+      Outside Temperature: 34,3&#176;F<br/>
+      Inside Temperature:  78,3&#176;F<br/>
+      Wind Chill:          30,7&#176;F<br/>
+      Heat Index:               -<br/>
+      Dewpoint:            32,8&#176;F<br/>
+      Humidity:            94%<br/>
+      Barometer:           988,3 &#1084;&#1073;&#1072;&#1088;<br/>
+      Wind:                3 &#1084;&#1080;&#1083;&#1100;/&#1095; from 209&#176;<br/>
+      Rain Rate:           0,00 &#1076;&#1102;&#1081;&#1084;./&#1095;&#1072;&#1089;<br/>
+      </p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Daily Weather Summary as of 26.10.2018 21:50:00</title>
+      <link>http://127.0.0.1/index.html</link>
+      <description>
+        Min outside temperature: 32,0&#176;F at 00:10:08;
+        Max outside temperature: 38,8&#176;F at 14:00:38;
+        Min inside temperature:  74,1&#176;F at 12:36:48;
+        Max inside temperature:  82,0&#176;F at 00:10:00;
+        Min barometer:           980,5 &#1084;&#1073;&#1072;&#1088; at 00:00:01;
+        Max barometer:           988,3 &#1084;&#1073;&#1072;&#1088; at 21:50:00;
+        Max wind :               15 &#1084;&#1080;&#1083;&#1100;/&#1095; from 274&#176; at 10:30:00;
+        Rain today:              0,01 &#1076;&#1102;&#1081;&#1084;.
+      </description>
+      <pubDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</pubDate>
+      <geo:lat>56.571</geo:lat>
+      <geo:long>36.43</geo:long>
+      <content:encoded><![CDATA[
+      <p>
+      Day:                     26 &#1086;&#1082;&#1090; 2018<br/>
+      Min Outside Temperature: 32,0&#176;F at 00:10:08<br/>
+      Max Outside Temperature: 38,8&#176;F at 14:00:38<br/>
+      Min Inside Temperature:  74,1&#176;F at 12:36:48<br/>
+      Max Inside Temperature:  82,0&#176;F at 00:10:00<br/>
+      Min Barometer:           980,5 &#1084;&#1073;&#1072;&#1088; at 00:00:01<br/>
+      Max Barometer:           988,3 &#1084;&#1073;&#1072;&#1088; at 21:50:00<br/>
+      Max Wind :               15 &#1084;&#1080;&#1083;&#1100;/&#1095; from 274&#176; at 10:30:00<br/>
+      Rain today:              0,01 &#1076;&#1102;&#1081;&#1084;.<br/>
+      </p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Monthly Weather Summary as of 26.10.2018 21:50:00</title>
+      <link>http://127.0.0.1/month.html</link>
+      <description>
+        Min outside temperature: 32,0&#176;F at 26.10.2018;
+        Max outside temperature: 49,8&#176;F at 22.10.2018;
+        Min inside temperature:  62,2&#176;F at 20.10.2018;
+        Max inside temperature:  83,5&#176;F at 24.10.2018;
+        Min barometer:           971,6 &#1084;&#1073;&#1072;&#1088; at 24.10.2018;
+        Max barometer:           1011,3 &#1084;&#1073;&#1072;&#1088; at 21.10.2018;
+        Max wind :               22 &#1084;&#1080;&#1083;&#1100;/&#1095; from 216&#176; at 22.10.2018;
+        Rain total for month:    0,30 &#1076;&#1102;&#1081;&#1084;.
+      </description>
+      <pubDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</pubDate>
+      <content:encoded><![CDATA[
+      <p>
+      Month:                   &#1054;&#1082;&#1090;&#1103;&#1073;&#1088;&#1100; 2018<br/>
+      Max Outside Temperature: 49,8&#176;F at 22.10.2018<br/>
+      Min Outside Temperature: 32,0&#176;F at 26.10.2018<br/>
+      Max Inside Temperature:  83,5&#176;F at 24.10.2018<br/>
+      Min Inside Temperature:  62,2&#176;F at 20.10.2018<br/>
+      Min Barometer:           971,6 &#1084;&#1073;&#1072;&#1088; at 24.10.2018<br/>
+      Max Barometer:           1011,3 &#1084;&#1073;&#1072;&#1088; at 21.10.2018<br/>
+      Max Wind :               22 &#1084;&#1080;&#1083;&#1100;/&#1095; from 216&#176; at 22.10.2018<br/>
+      Rain total for month:    0,30 &#1076;&#1102;&#1081;&#1084;.<br/>
+      </p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Yearly Weather Summary as of 26.10.2018 21:50:00</title>
+      <link>http://127.0.0.1/year.html</link>
+      <description>
+        Min outside temperature: 32,0&#176;F at 26.10.2018;
+        Max outside temperature: 49,8&#176;F at 22.10.2018;
+        Min inside temperature:  62,2&#176;F at 20.10.2018;
+        Max inside temperature:  83,5&#176;F at 24.10.2018;
+        Min barometer:           971,6 &#1084;&#1073;&#1072;&#1088; at 24.10.2018;
+        Max barometer:           1011,3 &#1084;&#1073;&#1072;&#1088; at 21.10.2018;
+        Max wind :               22 &#1084;&#1080;&#1083;&#1100;/&#1095; from 216&#176; at 22.10.2018;
+        Rain total for year:     0,30 &#1076;&#1102;&#1081;&#1084;.
+      </description>
+      <pubDate>&#1055;&#1090;, 26 &#1086;&#1082;&#1090; 2018 21:50:00 MSK</pubDate>
+      <content:encoded><![CDATA[
+      <p>
+      Year:                    2018<br/>
+      Max Outside Temperature: 49,8&#176;F at 22.10.2018<br/>
+      Min Outside Temperature: 32,0&#176;F at 26.10.2018<br/>
+      Max Inside Temperature:  83,5&#176;F at 24.10.2018<br/>
+      Min Inside Temperature:  62,2&#176;F at 20.10.2018<br/>
+      Min Barometer:           971,6 &#1084;&#1073;&#1072;&#1088; at 24.10.2018<br/>
+      Max Barometer:           1011,3 &#1084;&#1073;&#1072;&#1088; at 21.10.2018<br/>
+      Max Wind :               22 &#1084;&#1080;&#1083;&#1100;/&#1095; from 216&#176; at 22.10.2018<br/>
+      Rain total for year:     0,30 &#1076;&#1102;&#1081;&#1084;.<br/>
+      </p>
+      ]]></content:encoded>
+    </item>
+
+   </channel>
+</rss>
+

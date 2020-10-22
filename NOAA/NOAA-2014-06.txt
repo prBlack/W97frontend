@@ -2,10 +2,10 @@
 
 
 NAME: Novozavidovsky, Tver's reg., Russia                  
-ELEV: 140 meters    LAT: 56-34.26 N    LONG: 036-25.80 E
+ELEV: 459 feet    LAT: 56-34.26 N    LONG: 036-25.80 E
 
 
-                   TEMPERATURE (C), RAIN (mm), WIND SPEED (m/s)
+                   TEMPERATURE (F), RAIN (in), WIND SPEED (mph)
 
                                          HEAT   COOL         AVG
       MEAN                               DEG    DEG          WIND                   DOM

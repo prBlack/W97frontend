@@ -1,0 +1,33 @@
+*******************************************
+*** Erik M Madsen | 25-10-2016          ***
+
+Updated 4th November Brian underdown
+*******************************************
+
+
+
+Unzip it to the root of the website.
+and then it should work out of the box.
+
+It is just a simple script
+
+If it works then we are good if it don’t i have no other ideas ..brian
+
+
+Just email if you have questions
+
+For a new language, it´s only needed to make a new php file, aka: lang-XX.php and use the UK(lang.en.php) file as default template
+
+
+INSTRUCTIONS
+
+
+*** Place common.php in same directory as index.php/indexnew.php
+--------------------------------------------------------------------
+in root of your template folder or server root directory
+
+*** Place languages directory
+--------------------------------------------------------------------
+in root  yoururl/languages/lang.en.php etc
+
+

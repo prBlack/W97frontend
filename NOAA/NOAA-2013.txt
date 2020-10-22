@@ -2,14 +2,14 @@
 
 
 NAME: Novozavidovsky, Tver's reg., Russia                  
-ELEV: 140 meters    LAT: 56-34.26 N    LONG: 036-25.80 E
+ELEV: 459 feet    LAT: 56-34.26 N    LONG: 036-25.80 E
 
 
-                                       TEMPERATURE (C)
+                                       TEMPERATURE (F)
 
                               HEAT    COOL                              MAX    MAX    MIN    MIN
           MEAN   MEAN         DEG     DEG                                >=     <=     <=     <=
- YR  MO   MAX    MIN    MEAN  DAYS    DAYS      HI  DAY     LOW  DAY     30      0      0    -20
+ YR  MO   MAX    MIN    MEAN  DAYS    DAYS      HI  DAY     LOW  DAY     90     32     32      0
 ------------------------------------------------------------------------------------------------
 2013 01
 2013 02
@@ -27,11 +27,11 @@ ELEV: 140 meters    LAT: 56-34.26 N    LONG: 036-25.80 E
            N/A    N/A    N/A    0,0    0,0     N/A  N/A     N/A  N/A    N/A    N/A    N/A    N/A
 
 
-                  PRECIPITATION (mm)
+                  PRECIPITATION (in)
 
                   MAX         ---DAYS OF RAIN---
                   OBS.               OVER
- YR  MO  TOTAL    DAY  DATE   0.30   3.00  30.00
+ YR  MO  TOTAL    DAY  DATE   0.01   0.10   1.00
 ------------------------------------------------
 2013 01
 2013 02
@@ -49,7 +49,7 @@ ELEV: 140 meters    LAT: 56-34.26 N    LONG: 036-25.80 E
            N/A    N/A   N/A    N/A    N/A    N/A
 
 
-           WIND SPEED (m/s)
+           WIND SPEED (mph)
 
                                 DOM
  YR  MO    AVG     HI   DATE    DIR

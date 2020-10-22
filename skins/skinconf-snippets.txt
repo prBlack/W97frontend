@@ -1,0 +1,25 @@
+
+[[ChartsByDay]]
+
+  [[[DAILYCHARTS]]]
+	        encoding = strict_ascii	
+            template = chartsweewxdata/DDMMYYYY.txt.tmpl
+            HTML_ROOT = /var/www/html/weewx/chartsweewx
+ 
+ [[ChartsByMonth]]
+        # Reports that summarize "by month"
+        [[[MONTHLYCHARTS]]]
+            encoding = strict_ascii
+            template = chartsweewxdata/MMYYYY.txt.tmpl
+            HTML_ROOT = /var/www/html/weewx/chartsweewx
+            
+ [[ChartsByYear]]
+        # Reports that summarize "by year"
+        [[[YEARLYCHARTS]]]
+            encoding = strict_ascii
+            template = chartsweewxdata/YYYY.txt.tmpl
+            HTML_ROOT = /var/www/html/weewx/chartsweewx
+            
+ [[[VERSION]]]       
+           template = version.php.tmpl
+           HTML_ROOT = /var/www/html/weewx

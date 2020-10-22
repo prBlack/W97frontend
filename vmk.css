@@ -1,0 +1,41 @@
+/*
+ * weewx mobile CSS settings
+ */
+
+/* Global */
+
+body {
+#	background-color: #75a1d0;
+	font-family: helvetica, arial;
+	text-align: center;
+	width: 185px;
+}	
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+table.readings {
+	font-size: 11px;
+	width: 180px;
+	border: 2px solid black;
+	border-collapse: collapse;
+	color: #1B1464;
+}
+
+tr.alt {
+#	background-color: #9bc4e2;
+}
+
+td {
+	text-align: right;
+	font-weight: 500;
+	border: 1px solid black;
+	width: 50%;
+	padding: 2px;
+}
+
+td.data {
+	text-align: left;
+}

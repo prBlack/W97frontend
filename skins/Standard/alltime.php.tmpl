@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2005/10/profile">
+    ## This choice should match the #encoding directive above
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>$station.location Weather Records</title>
+<html>
+<head>
+<style>
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border-collapse: collapse;
+    border-width: 15px;
+    width: 100%;
+    color: #C0C0C0;
+}
+
+#customers td, #customers th {
+    
+    padding: 8px;
+    border-width: 15px;
+    border-radius: 4px;
+    background-color: #25292D;
+}
+
+
+
+
+
+#customers th {
+    padding-top: 11px;
+    padding-bottom: 12px;
+    text-align: left;
+    
+    color: #C0C0C0;
+    font-size: 13px;
+    border-width: 20px;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>Records Compiled<br/>
+      $current.dateTime.format("%d %B %Y %H:%M")</th>
+    <th>Alltime</th>
+    <th></th>
+    <th>$current.dateTime.format("%Y")</th>
+    <th></th>
+    <th>$current.dateTime.format("%B %Y")</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>High Temperature<br/>
+        Low Temperature<br/>
+          High Heat Index<br/>
+       Low Wind Chill<br/>
+         High Dewpoint<br/>
+                  Low Dewpoint</td>
+    <td>$alltime.outTemp.max.raw&deg;C<br/>
+                  $alltime.outTemp.min.formatted&deg;C
+                    <br/>$alltime.heatindex.max.formatted&deg;C<br/>
+                  $alltime.windchill.min.formatted&deg;C<br/>
+                    $alltime.dewpoint.max.formatted&deg;C<br/>
+                  $alltime.dewpoint.min.formatted&deg;C</td>
+                  
+                  <td>$alltime.outTemp.maxtime.format("%d %b %Y %H:%M")<br/>
+                  $alltime.outTemp.mintime.format("%d %b %Y %H:%M")<br/>
+                    $alltime.heatindex.maxtime.format("%d %b %Y %H:%M")<br/>
+                  $alltime.windchill.mintime.format("%d %b %Y %H:%M")<br/>
+                    $alltime.dewpoint.maxtime.format("%d %b %Y %H:%M")<br/>
+                  $alltime.dewpoint.mintime.format("%d %b %Y %H:%M")</td>
+                  
+                  
+                  
+                  <td>$year.outTemp.max.formatted&deg;C<br/>
+                  $year.outTemp.min.formatted&deg;C<br/>
+                    $year.heatindex.max.formatted&deg;C<br/>
+                  $year.windchill.min.formatted&deg;C<br/>
+                    $year.dewpoint.max.formatted&deg;C<br/>
+                  $year.dewpoint.min.formatted&deg;C</td>
+                  
+                  <td>$year.outTemp.maxtime.format("%d %b %H:%M")<br/>
+                  $year.outTemp.mintime.format("%d %b %H:%M")<br/>
+                    $year.heatindex.maxtime.format("%d %b %H:%M")<br/>
+                  $year.windchill.mintime.format("%d %b %H:%M")<br/>
+                    $year.dewpoint.maxtime.format("%d %b %H:%M")<br/>
+                  $year.dewpoint.mintime.format("%d %b %H:%M")</td>
+                  
+                    <td>$month.outTemp.max.formatted&deg;C<br/>
+                  $month.outTemp.min.formatted&deg;C<br/>
+                    $month.heatindex.max.formatted&deg;C<br/>
+                  $month.windchill.min.formatted&deg;C<br/>
+                    $month.dewpoint.max.formatted&deg;C<br/>
+                  $month.dewpoint.min.formatted&deg;C</td>
+                  
+                  <td>$month.outTemp.maxtime.format("%d %b %H:%M")<br/>
+                  $month.outTemp.mintime.format("%d %b %H:%M")<br/>
+                   $month.heatindex.maxtime.format("%d %b %H:%M")<br/>
+                  $month.windchill.mintime.format("%d %b %H:%M")<br/>
+                    $month.dewpoint.maxtime.format("%d %b %H:%M")<br/>
+                  $month.dewpoint.mintime.format("%d %b %H:%M")</td>
+    
+  </tr>
+  
+  <tr>
+    <td>High Humidity<br/>
+                  Low Humidity</td>
+    <td>$alltime.outHumidity.max<br/>
+                  $alltime.outHumidity.min</td>
+                  
+                  <td>$alltime.outHumidity.maxtime.format("%d %b %Y %H:%M")<br/>
+                  $alltime.outHumidity.mintime.format("%d %b %Y %H:%M")</td>
+                  
+                  <td>$year.outHumidity.max<br/>
+                  $year.outHumidity.min</td>
+                  
+                  <td>$year.outHumidity.maxtime.format("%d %b %H:%M")<br/>
+                  $year.outHumidity.mintime.format("%d %b %H:%M")</td>
+                  
+                  <td>$month.outHumidity.max<br/>
+                  $month.outHumidity.min</td>
+                  
+                  <td>$month.outHumidity.maxtime.format("%d %b %H:%M")<br/>
+                  $month.outHumidity.mintime.format("%d %b %H:%M")</td>
+  </tr>
+  
+  <tr>
+    <td>High Barometer<br/>
+                  Low Barometer</td>
+                  
+    <td>$alltime.barometer.max<br/>
+                  $alltime.barometer.min</td>
+                  
+                  <td>$alltime.barometer.maxtime.format("%d %b %Y %H:%M")<br/>
+                  $alltime.barometer.mintime.format("%d %b %Y %H:%M")</td>
+                  
+                  <td>$year.barometer.max<br/>
+                  $year.barometer.min</td>
+                  
+                  <td>$year.barometer.maxtime.format("%d %b %H:%M")<br/>
+                  $year.barometer.mintime.format("%d %b %H:%M")</td>
+                  
+                  <td>$month.barometer.max<br/>
+                  $month.barometer.min</td>
+                  
+                  <td>$month.barometer.maxtime.format("%d %b %H:%M")<br/>
+                  $month.barometer.mintime.format("%d %b %H:%M")</td>
+    
+  </tr>
+  <tr>
+    <td>Total Rain<br>
+    High Rain Rate</td>
+    <td>$alltime.rain.sum<br>
+      $alltime.rainRate.max</td>
+    
+    <td><br>
+      $alltime.rainRate.maxtime.format("%d %b %Y %H:%M")</td>
+    
+    <td>$year.rain.sum<br>
+      $year.rainRate.max</td>
+      
+    <td><br>
+      $year.rainRate.maxtime.format("%d %b %H:%M")</td>  
+    
+    <td>$month.rain.sum<br>
+        $month.rainRate.max</td>
+        
+    <td><br>
+        $month.rainRate.maxtime.format("%d %b %H:%M")</td>    
+    
+  </tr>
+  <tr>
+    <td>High Wind<br>
+    Average Wind<br>
+    Wind RMS<br>
+      Vector Average Speed<br/>
+                 Vector Average Direction</td>
+    
+                    <td>$alltime.wind.max<br>
+                    $alltime.wind.avg<br>
+                    $alltime.wind.rms<br>
+                    $alltime.wind.vecavg<br/>
+                  $alltime.wind.vecdir&deg; ($alltime.wind.vecdir.ordinal_compass)</td>
+                  
+                  <td>$alltime.wind.maxtime.format("%d %b %Y %H:%M")<br>-<br>-
+    <br>-<br/>-<br/>
+                  </td>
+                  
+                  <td>$year.wind.max<br>$year.wind.avg<br>
+    $year.wind.rms<br>$year.wind.vecavg<br/>
+                  $year.wind.vecdir&deg; ($year.wind.vecdir.ordinal_compass)</td>
+                  
+                  <td>$year.wind.maxtime.format("%d %b %H:%M")<br>-<br>-
+    <br>-<br/>-<br/>
+                  </td>
+                  
+                  <td>$month.wind.max<br>$month.wind.avg<br>
+    $month.wind.rms<br>$month.wind.vecavg<br/>
+                  $month.wind.vecdir&deg; ($month.wind.vecdir.ordinal_compass)</td>
+                  
+                  <td>$month.wind.maxtime.format("%d %b %H:%M")<br>-<br>-
+    <br>-<br/>-<br/>
+                  </td>
+    
+  </tr>
+  <tr>
+    <td>High UVI<br>High Solar Radiation</td>
+    <td>$alltime.UV.max<br>
+      $alltime.radiation.max&sup2;</td>
+      
+      <td>$alltime.UV.maxtime.format("%d %b %Y %H:%M")<br>
+      $alltime.radiation.maxtime.format("%d %b %Y %H:%M")</td>
+    
+    <td>$year.UV.max<br>
+      $year.radiation.max&sup2;</td>
+      
+      <td>$year.UV.maxtime.format("%d %b %H:%M")<br>
+      $year.radiation.maxtime.format("%d %b %H:%M")</td>
+    
+    <td>$month.UV.max<br>
+      $month.radiation.max&sup2;</td>
+      
+      <td>$month.UV.maxtime.format("%d %b %H:%M")<br>
+      $month.radiation.maxtime.format("%d %b %H:%M")</td>
+      
+  </tr>
+  
+</table>
+
+</body>
+</html>
+
